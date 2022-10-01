@@ -1,0 +1,12 @@
+import React, { FC } from "react";
+import styles from "./TemplateName.module.scss";
+
+const TemplateName: FC = () => {
+  return (
+    <div className={styles.TemplateName}>
+      <h1>TemplateName component</h1>
+    </div>
+  );
+};
+
+export default TemplateName;

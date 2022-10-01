@@ -1,0 +1,13 @@
+.Star {
+  display: block;
+  margin-left: 7px;
+  opacity: .2;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &.filled {
+    opacity: 1;
+  }
+}

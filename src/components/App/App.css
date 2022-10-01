@@ -1,0 +1,11 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-width: 768px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}

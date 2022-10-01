@@ -1,0 +1,32 @@
+.Footer {
+  margin-top: 255px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 69px;
+  background: #1A1621;
+
+  .wrapper {
+    width: 100%;
+    padding: 0 41px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 30px;
+    }
+
+    p {
+      font-weight: 250;
+      font-size: 20px;
+      line-height: 24px;
+      opacity: .5;
+      cursor: default;
+    }
+  }
+}

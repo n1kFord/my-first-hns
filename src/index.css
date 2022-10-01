@@ -1,0 +1,21 @@
+@import url("./vendor/fonts.css");
+/* need to add stylelint */
+html,
+body {
+  background: var(--gradient);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --default: #6D78C0;
+  --primary: #B67FFB;
+  --light-purple: #E3CDFF;
+  --gradient: linear-gradient(0deg, rgba(34, 7, 79, 0.2), rgba(34, 7, 79, 0.2)), #242424;
+}
